@@ -1,22 +1,17 @@
 <template>
   <ul>
     <li v-for="meal in menu" :key="meal.id">
-      <!-- <Menu v-bind:meal="meal" /> -->
-    <ul>
-<li v-for="item in meal.items" :key="item.id">
-
-      {{ item.name }}
-      
-      </li>
-      <li>
-        &nbsp;</li>
-    </ul>
+      <ul>
+        <li v-for="item in meal.items" :key="item.id">
+          <Menu v-bind:item="item" />
+        </li>
+      </ul>
     </li>
   </ul>
 </template>
 
 <script>
-// import Menu from "./Menu.vue";
+import Menu from "./Menu.vue";
 export default {
   name: "ItemsList",
   data() {
@@ -42,7 +37,7 @@ export default {
     },
   },
   components: {
-    // Menu
+    Menu,
   },
 };
 </script>

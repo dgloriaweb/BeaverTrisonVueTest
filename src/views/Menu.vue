@@ -1,17 +1,19 @@
 <template>
   <div>
-    <router-link :to="jobPath">
-      {{ job.id }}
+    <router-link :to="itemPath">
+     
+          {{ item.name }}
+        
     </router-link>
   </div>
 </template>
 
 <script>
 export default {
-  props: ["job"],
+  props: ["item"],
   computed: {
-    jobPath: function () {
-      return `/jobs/${this.job.id}`;
+    itemPath: function () {
+      return `/meals/${this.item.id}`;
     },
   },
 };
