@@ -1,40 +1,48 @@
 <template>
   <ul>
-    <li v-for="menu in menu_items" :key="menu.id">
-      <Menu v-bind:menu="menu" />
+    <li v-for="meal in menu" :key="meal.id">
+      <!-- <Menu v-bind:meal="meal" /> -->
+    <ul>
+<li v-for="item in meal.items" :key="item.id">
+
+      {{ item.name }}
+      
+      </li>
+      <li>
+        &nbsp;</li>
+    </ul>
     </li>
   </ul>
 </template>
 
 <script>
-import Menu from "./Menu.vue";
+// import Menu from "./Menu.vue";
 export default {
-  name: "MenuItemsList",
+  name: "ItemsList",
   data() {
     return {
-      menu_items: [],
+      menu: [],
     };
   },
   created: function () {
     this.fetchData();
   },
   methods: {
-    fetchData: async function (req) {
+    fetchData: async function () {
       try {
         const res = await fetch(
           "https://dev.menu.ninja/api/menu/156?key=8j5vfe%24*pfb**rzt&pretty=1"
         );
-        const accessToken = req.body.access_token;
 
-        const menu_items = await res.json(accessToken);
-        this.menu_items = menu_items.data;
+        const apiresource = await res.json();
+        this.menu = apiresource;
       } catch (e) {
         console.log(e);
       }
     },
   },
   components: {
-    Menu
+    // Menu
   },
 };
 </script>

@@ -1,17 +1,17 @@
 <template>
   <div>
-    <router-link :to="menuPath">
-      {{ menu.menu_name }}
+    <router-link :to="jobPath">
+      {{ job.id }}
     </router-link>
   </div>
 </template>
 
 <script>
 export default {
-  props: ["menu"],
+  props: ["job"],
   computed: {
-    menuPath: function () {
-      return `/menu_items/${this.menu.id}`;
+    jobPath: function () {
+      return `/jobs/${this.job.id}`;
     },
   },
 };
