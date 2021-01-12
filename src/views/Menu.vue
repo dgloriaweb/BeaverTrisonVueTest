@@ -3,6 +3,10 @@
     <router-link :to="itemPath">
      
          <img :src="posterImage" :alt="item.name" />
+         <div class="itemname">
+
+         {{item.name}}
+         </div>
         
     </router-link>
   </div>
@@ -22,5 +26,9 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style  scoped>
+.itemname{
+  font-size:1.3rem;
+  font-weight:bold;
+}
 </style>
