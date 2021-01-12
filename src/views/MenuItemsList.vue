@@ -22,7 +22,7 @@ export default {
     fetchData: async function (req) {
       try {
         const res = await fetch(
-          "http://localhost/talentexploit_laravel8/public/api/menu_items/all"
+          "https://dev.menu.ninja/api/menu/156?key=8j5vfe%24*pfb**rzt&pretty=1"
         );
         const accessToken = req.body.access_token;
 
