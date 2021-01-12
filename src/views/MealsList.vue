@@ -1,17 +1,22 @@
 <template>
+<Header />
+<div class="container">
+
   <ul>
     <li v-for="meal in menu" :key="meal.id">
-      <ul>
-        <li v-for="item in meal.items" :key="item.id">
+      <ul class="sec">
+        <li  class="second" v-for="item in meal.items" :key="item.id">
           <Menu v-bind:item="item" />
         </li>
       </ul>
     </li>
   </ul>
+  </div>
 </template>
 
 <script>
 import Menu from "./Menu.vue";
+import Header from "./Header.vue";
 export default {
   name: "ItemsList",
   data() {
@@ -37,10 +42,33 @@ export default {
     },
   },
   components: {
+    Header,
     Menu,
   },
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
+
+li{
+  font-family: 'Hachi Maru Pop';
+}
+.container{
+  margin:auto;
+}
+
+ul.sec {
+  display: grid;
+  list-style: none;
+  padding: 2rem;
+  margin: 0;
+  grid-row-gap: 2rem;
+  grid-column-gap: 2rem;
+  grid-template-columns: repeat(6, 1fr);
+}
+li.second {
+  background:rgb(163, 108, 108);
+  padding:2rem;
+  grid-row-gap: 2rem;
+};
 </style>
