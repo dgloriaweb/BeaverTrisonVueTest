@@ -9,7 +9,7 @@
 <script>
 import Menu from "./Menu.vue";
 export default {
-  name: "MenusList",
+  name: "MenuItemsList",
   data() {
     return {
       menu_items: [],
