@@ -2,7 +2,7 @@
   <div>
     <router-link :to="itemPath">
      
-          {{ item.name }}
+         <img :src="posterImage" :alt="item.name" />
         
     </router-link>
   </div>
@@ -12,9 +12,12 @@
 export default {
   props: ["item"],
   computed: {
+    posterImage: function() {
+      return `${this.item.image}`;
+    },
     itemPath: function () {
       return `/meals/${this.item.id}`;
-    },
+    }
   },
 };
 </script>

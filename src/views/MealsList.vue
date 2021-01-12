@@ -60,15 +60,14 @@ li{
 ul.sec {
   display: grid;
   list-style: none;
-  padding: 2rem;
+  padding: 1rem;
   margin: 0;
   grid-row-gap: 2rem;
-  grid-column-gap: 2rem;
-  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 1rem;
+  grid-template-columns: repeat(3 , 1fr);
 }
 li.second {
-  background:rgb(163, 108, 108);
-  padding:2rem;
-  grid-row-gap: 2rem;
+  background:rgb(161 218 201);
+  grid-row-gap: 1rem;
 };
 </style>
