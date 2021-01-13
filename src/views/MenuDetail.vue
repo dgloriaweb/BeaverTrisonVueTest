@@ -19,7 +19,13 @@
         <h1>Details:</h1>
         <br />
       </div>
-      <div class="item5">Order Now</div>
+      <div class="item5">
+          <a href="" class="flex bg-blue-500 font-bold text-white px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+    Order Now 
+    <svg xmlns="http://www.w3.org/2000/svg" class="inline ml-2 w-6 stroke-current text-white stroke-2" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+</a>
+          
+          </div>
     </div>
   </div>
 </template>
@@ -103,5 +109,9 @@ body {
   background: rgba(161, 218, 201, 0.6);
 
   padding: 20px ;
+}
+
+.mr-6{
+    width:10rem;
 }
 </style>
