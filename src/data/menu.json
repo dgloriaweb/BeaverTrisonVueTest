@@ -1,0 +1,393 @@
+{
+    "request": "\/api\/menu\/156?key=8j5vfe%24*pfb**rzt&pretty=1",
+    "generated": {
+        "date": "2021-01-12 20:11:37",
+        "timezone_type": "3",
+        "timezone": "Europe\/London",
+        "duration": "56"
+    },
+    "menu": {
+        "id": "156",
+        "added": "2018-04-19 12:41:13",
+        "modified": "2019-01-21 10:17:56",
+        "accountid": "13",
+        "name": "Standard Content",
+        "restrictItemType": "0",
+        "active": "1",
+        "previewid": "0",
+        "items": [
+            {
+                "id": "1456",
+                "added": "2018-04-19 12:36:11",
+                "modified": "2018-05-02 11:20:19",
+                "accountid": "13",
+                "typeid": "134",
+                "name": "Mushroom and cheese tart",
+                "details": "Parmesan cheese, dried basil, fresh thyme and a clove of garlic served in a soft puff pastry",
+                "vegetarian": "0",
+                "vegan": "0",
+                "dairyfree": "0",
+                "glutenfree": "0",
+                "halal": "0",
+                "pregnant": "0",
+                "wheat": "0",
+                "crustaceans": "0",
+                "eggs": "0",
+                "fish": "0",
+                "peanuts": "0",
+                "soybeans": "0",
+                "milk": "0",
+                "nuts": "0",
+                "celery": "0",
+                "mustard": "0",
+                "sesame": "0",
+                "sulphurDioxide": "0",
+                "lupin": "0",
+                "molluscs": "0",
+                "sort": "0",
+                "active": "1",
+                "type": {
+                    "name": "Food & Drink"
+                },
+                "image": "https:\/\/dev.menu.ninja\/data\/img\/item\/1456.png?5ae1d0c4",
+                "image2": "https:\/\/dev.menu.ninja\/data\/img\/item\/secondary\/1456.png?5ae98b98",
+                "nutritionLabelling": {
+                    "Item": {
+                        "itemid": "1456",
+                        "size": "Item",
+                        "weight": "0.00",
+                        "energykj": "0.00",
+                        "energykcal": "0.00",
+                        "protein": "0.00",
+                        "carbohydrate": "0.00",
+                        "sugars": "0.00",
+                        "fat": "0.00",
+                        "saturates": "0.00",
+                        "fibre": "0.00",
+                        "sodium": "0.00",
+                        "salt": "0.00"
+                    }
+                },
+                "num": "0",
+                "overrideDuration": "+10 year",
+                "locked": "1",
+                "menuitemid": "1505",
+                "prices": {
+                    "price": {
+                        "price": "4.99"
+                    }
+                }
+            },
+            {
+                "id": "1457",
+                "added": "2018-04-19 12:36:20",
+                "modified": "2018-05-02 11:21:50",
+                "accountid": "13",
+                "typeid": "134",
+                "name": "Selection of Sandwiches",
+                "details": "Choices include smoked ham with waldorf salad, or roasted pumpkin and goat\u2019s cheese",
+                "vegetarian": "0",
+                "vegan": "0",
+                "dairyfree": "0",
+                "glutenfree": "0",
+                "halal": "0",
+                "pregnant": "0",
+                "wheat": "0",
+                "crustaceans": "0",
+                "eggs": "0",
+                "fish": "0",
+                "peanuts": "0",
+                "soybeans": "0",
+                "milk": "0",
+                "nuts": "0",
+                "celery": "0",
+                "mustard": "0",
+                "sesame": "0",
+                "sulphurDioxide": "0",
+                "lupin": "0",
+                "molluscs": "0",
+                "sort": "0",
+                "active": "1",
+                "type": {
+                    "name": "Food & Drink"
+                },
+                "image": "https:\/\/dev.menu.ninja\/data\/img\/item\/1457.png?5ae1d0e9",
+                "image2": "https:\/\/dev.menu.ninja\/data\/img\/item\/secondary\/1457.png?5ae98f7c",
+                "nutritionLabelling": {
+                    "Item": {
+                        "itemid": "1457",
+                        "size": "Item",
+                        "weight": "0.00",
+                        "energykj": "0.00",
+                        "energykcal": "0.00",
+                        "protein": "0.00",
+                        "carbohydrate": "0.00",
+                        "sugars": "0.00",
+                        "fat": "0.00",
+                        "saturates": "0.00",
+                        "fibre": "0.00",
+                        "sodium": "0.00",
+                        "salt": "0.00"
+                    }
+                },
+                "num": "1",
+                "overrideDuration": "+10 year",
+                "locked": "0",
+                "menuitemid": "1506",
+                "prices": {
+                    "price": {
+                        "price": "4.99"
+                    }
+                }
+            },
+            {
+                "id": "1458",
+                "added": "2018-04-19 12:36:29",
+                "modified": "2018-05-02 11:22:09",
+                "accountid": "13",
+                "typeid": "134",
+                "name": "Spaghetti Primavera",
+                "details": "with green spring vegetables, eggplant and feta cheese",
+                "vegetarian": "0",
+                "vegan": "0",
+                "dairyfree": "0",
+                "glutenfree": "0",
+                "halal": "0",
+                "pregnant": "0",
+                "wheat": "0",
+                "crustaceans": "0",
+                "eggs": "0",
+                "fish": "0",
+                "peanuts": "0",
+                "soybeans": "0",
+                "milk": "0",
+                "nuts": "0",
+                "celery": "0",
+                "mustard": "0",
+                "sesame": "0",
+                "sulphurDioxide": "0",
+                "lupin": "0",
+                "molluscs": "0",
+                "sort": "0",
+                "active": "1",
+                "type": {
+                    "name": "Food & Drink"
+                },
+                "image": "https:\/\/dev.menu.ninja\/data\/img\/item\/1458.png?5ae1d0ff",
+                "image2": "https:\/\/dev.menu.ninja\/data\/img\/item\/secondary\/1458.png?5ae98f88",
+                "nutritionLabelling": {
+                    "Item": {
+                        "itemid": "1458",
+                        "size": "Item",
+                        "weight": "0.00",
+                        "energykj": "0.00",
+                        "energykcal": "0.00",
+                        "protein": "0.00",
+                        "carbohydrate": "0.00",
+                        "sugars": "0.00",
+                        "fat": "0.00",
+                        "saturates": "0.00",
+                        "fibre": "0.00",
+                        "sodium": "0.00",
+                        "salt": "0.00"
+                    }
+                },
+                "num": "2",
+                "overrideDuration": "+10 year",
+                "locked": "0",
+                "menuitemid": "1507",
+                "prices": {
+                    "price": {
+                        "price": "4.99"
+                    }
+                }
+            },
+            {
+                "id": "1459",
+                "added": "2018-04-19 12:36:38",
+                "modified": "2018-05-02 11:17:43",
+                "accountid": "13",
+                "typeid": "134",
+                "name": "Apple and Feta Flatbread",
+                "details": "Crisp flatbread served with a side salad and an apple cider vinaigrette",
+                "vegetarian": "0",
+                "vegan": "0",
+                "dairyfree": "0",
+                "glutenfree": "0",
+                "halal": "0",
+                "pregnant": "0",
+                "wheat": "0",
+                "crustaceans": "0",
+                "eggs": "0",
+                "fish": "0",
+                "peanuts": "0",
+                "soybeans": "0",
+                "milk": "0",
+                "nuts": "0",
+                "celery": "0",
+                "mustard": "0",
+                "sesame": "0",
+                "sulphurDioxide": "0",
+                "lupin": "0",
+                "molluscs": "0",
+                "sort": "0",
+                "active": "1",
+                "type": {
+                    "name": "Food & Drink"
+                },
+                "image": "https:\/\/dev.menu.ninja\/data\/img\/item\/1459.png?5ae1d038",
+                "image2": "https:\/\/dev.menu.ninja\/data\/img\/item\/secondary\/1459.png?5ae98e5f",
+                "nutritionLabelling": {
+                    "Item": {
+                        "itemid": "1459",
+                        "size": "Item",
+                        "weight": "0.00",
+                        "energykj": "0.00",
+                        "energykcal": "0.00",
+                        "protein": "0.00",
+                        "carbohydrate": "0.00",
+                        "sugars": "0.00",
+                        "fat": "0.00",
+                        "saturates": "0.00",
+                        "fibre": "0.00",
+                        "sodium": "0.00",
+                        "salt": "0.00"
+                    }
+                },
+                "num": "3",
+                "overrideDuration": "+10 year",
+                "locked": "0",
+                "menuitemid": "1508",
+                "prices": {
+                    "price": {
+                        "price": "4.99"
+                    }
+                }
+            },
+            {
+                "id": "1460",
+                "added": "2018-04-19 12:36:47",
+                "modified": "2018-05-02 11:19:36",
+                "accountid": "13",
+                "typeid": "134",
+                "name": "House Blend Kombucha",
+                "details": "A refreshing, sweet tea blended drink. Perfect for a hot day!",
+                "vegetarian": "0",
+                "vegan": "0",
+                "dairyfree": "0",
+                "glutenfree": "0",
+                "halal": "0",
+                "pregnant": "0",
+                "wheat": "0",
+                "crustaceans": "0",
+                "eggs": "0",
+                "fish": "0",
+                "peanuts": "0",
+                "soybeans": "0",
+                "milk": "0",
+                "nuts": "0",
+                "celery": "0",
+                "mustard": "0",
+                "sesame": "0",
+                "sulphurDioxide": "0",
+                "lupin": "0",
+                "molluscs": "0",
+                "sort": "0",
+                "active": "1",
+                "type": {
+                    "name": "Food & Drink"
+                },
+                "image": "https:\/\/dev.menu.ninja\/data\/img\/item\/1460.png?5ae1d0ae",
+                "image2": "https:\/\/dev.menu.ninja\/data\/img\/item\/secondary\/1460.png?5ae98f28",
+                "nutritionLabelling": {
+                    "Item": {
+                        "itemid": "1460",
+                        "size": "Item",
+                        "weight": "0.00",
+                        "energykj": "0.00",
+                        "energykcal": "0.00",
+                        "protein": "0.00",
+                        "carbohydrate": "0.00",
+                        "sugars": "0.00",
+                        "fat": "0.00",
+                        "saturates": "0.00",
+                        "fibre": "0.00",
+                        "sodium": "0.00",
+                        "salt": "0.00"
+                    }
+                },
+                "num": "4",
+                "overrideDuration": "+10 year",
+                "locked": "0",
+                "menuitemid": "1509",
+                "prices": {
+                    "price": {
+                        "price": "4.99"
+                    }
+                }
+            },
+            {
+                "id": "1461",
+                "added": "2018-04-19 12:36:56",
+                "modified": "2018-05-02 11:20:35",
+                "accountid": "13",
+                "typeid": "134",
+                "name": "Orange Bliss",
+                "details": "A refreshing cooler made with zesty orange juice and mango puree",
+                "vegetarian": "0",
+                "vegan": "0",
+                "dairyfree": "0",
+                "glutenfree": "0",
+                "halal": "0",
+                "pregnant": "0",
+                "wheat": "0",
+                "crustaceans": "0",
+                "eggs": "0",
+                "fish": "0",
+                "peanuts": "0",
+                "soybeans": "0",
+                "milk": "0",
+                "nuts": "0",
+                "celery": "0",
+                "mustard": "0",
+                "sesame": "0",
+                "sulphurDioxide": "0",
+                "lupin": "0",
+                "molluscs": "0",
+                "sort": "0",
+                "active": "1",
+                "type": {
+                    "name": "Food & Drink"
+                },
+                "image": "https:\/\/dev.menu.ninja\/data\/img\/item\/1461.png?5ae1d0cd",
+                "image2": "https:\/\/dev.menu.ninja\/data\/img\/item\/secondary\/1461.png?5ae98f5a",
+                "nutritionLabelling": {
+                    "Item": {
+                        "itemid": "1461",
+                        "size": "Item",
+                        "weight": "0.00",
+                        "energykj": "0.00",
+                        "energykcal": "0.00",
+                        "protein": "0.00",
+                        "carbohydrate": "0.00",
+                        "sugars": "0.00",
+                        "fat": "0.00",
+                        "saturates": "0.00",
+                        "fibre": "0.00",
+                        "sodium": "0.00",
+                        "salt": "0.00"
+                    }
+                },
+                "num": "5",
+                "overrideDuration": "+10 year",
+                "locked": "0",
+                "menuitemid": "1510",
+                "prices": {
+                    "price": {
+                        "price": "4.99"
+                    }
+                }
+            }
+        ]
+    }
+}
