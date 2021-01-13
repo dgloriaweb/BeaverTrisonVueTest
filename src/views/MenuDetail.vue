@@ -1,18 +1,25 @@
 <template>
-  <div>
-    <div class="container">
-      <div class="grid-container">
-        <div class="item1">Food & Drink</div>
-        <img  class="item2" :src="posterImage2" :alt="image" />
-        <div class="item3">{{ meals.menu.items.find((p) => (p.id = this.$route.params.id)).name }}</div>
-        <div class="item4">{{ meals.menu.items.find((p) => (p.id = this.$route.params.id)).name }}</div>
-        <div class="item5">{{ meals.menu.items.find((p) => (p.id = this.$route.params.id)).name }}</div>
+  <div class="container">
+    <div class="grid-container">
+      <div class="item1">Food & Drink</div>
+      <!-- <img  class="item2" :src="posterImage2" :alt="image" /> -->
+      <!-- <img  class="item2" :src="posterImage2" :alt="image" /> -->
+      <div class="item2">
+        {{ meals.menu.items.find((p) => (p.id = this.$route.params.id)).name }}
+        &nbsp;image
       </div>
-
-      <!-- {{meals}} -->
-      <div class="hero">
-        
+      <div class="item3">
+        {{ meals.menu.items.find((p) => (p.id = this.$route.params.id)).name }}
       </div>
+      <div class="item4">
+        {{
+          meals.menu.items.find((p) => (p.id = this.$route.params.id)).details
+        }}
+        <br />
+        <h1>Details:</h1>
+        <br />
+      </div>
+      <div class="item5">Order Now</div>
     </div>
   </div>
 </template>
@@ -32,8 +39,9 @@ export default {
     styles() {
       return {};
     },
-     posterImage2: function() {
-      return this.meals.menu.items.find((p) => (p.id = this.$route.params.id)).name;
+    posterImage2: function () {
+      return this.meals.menu.items.find((p) => (p.id = this.$route.params.id))
+        .image;
     },
   },
   methods: {
@@ -53,18 +61,19 @@ export default {
 </script>
 
 <style  scoped>
-
-.container{
-
-    margin:auto;
+body {
+  background: rgba(161, 218, 201, 0.6);
+}
+.container {
+  margin: auto;
 }
 
 /* grid */
 .item1 {
   grid-area: header;
- font-size: 2rem;
-  font-family: Anton, Helvetica, Arial, sans-serif;
-  }
+  font-size: 2rem;
+  
+}
 .item2 {
   grid-area: menu;
 }
@@ -72,7 +81,8 @@ export default {
   grid-area: main;
 }
 .item4 {
-  grid-area: right;
+  grid-area: main2;
+  text-align: left;
 }
 .item5 {
   grid-area: footer;
@@ -81,18 +91,17 @@ export default {
 .grid-container {
   display: grid;
   grid-template-areas:
-    "header header header header header header"
-    "menu main main main right right"
-    "menu footer footer footer footer footer";
+    "header header header header"
+    "menu main main main"
+    "menu main2 main2 main2"
+    "menu footer footer footer";
   grid-gap: 10px;
-  background:rgb(161 218 201);
   padding: 10px;
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+  background: rgba(161, 218, 201, 0.6);
+
+  padding: 20px ;
 }
 </style>
