@@ -1,7 +1,6 @@
 <template>
     <div>
-        <h1>{{ job.job_name }}</h1>
-        <h1>Drivers license: {{ job.job_drivers_licenses[0].driver.drivers_license }}</h1>
+        {{meals}}
     </div>
 </template>
 
@@ -9,7 +8,7 @@
     export default {
          data() {
     return {
-      job: {}
+      meals: {}
     };
   },
      created: function() {
@@ -28,8 +27,8 @@
         const res = await fetch(
           `https://dev.menu.ninja/api/menu/156?key=8j5vfe%24*pfb**rzt&pretty=1`
         );
-        const job = await res.json();
-        this.job = job;
+        const meals = await res.json();
+        this.meals = meals;
       } catch (e) {
         console.log(e);
       }
