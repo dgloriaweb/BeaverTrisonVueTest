@@ -1,0 +1,28 @@
+{
+    "request": "\/api\/menu\/156?key=8j5vfe%24*pfb**rzt&pretty=1",
+    "generated": {
+        "date": "2021-01-13 06:45:01",
+        "timezone_type": "3",
+        "timezone": "Europe\/London",
+        "duration": "53"
+    },
+    "menu": {
+        "id": "156",
+        "added": "2018-04-19 12:41:13",
+        "modified": "2019-01-21 10:17:56",
+        "accountid": "13",
+        "name": "Standard Content",
+        "restrictItemType": "0",
+        "active": "1",
+        "previewid": "0",
+        "items": [
+            {
+                "id": "1456",
+                "added": "2018-04-19 12:36:11",
+                "modified": "2018-05-02 11:20:19",
+                "accountid": "13",
+                "typeid": "134",
+                "name": "Hamburger"
+                }
+                }
+                }

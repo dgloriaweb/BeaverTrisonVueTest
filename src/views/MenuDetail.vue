@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- {{meals}} -->
-    <p>The meal name is: {{ meals.name }}</p>
+    <p>The meal name is: {{ meals.menu.items.find((p)=>p.id=this.$route.params.id).name}}</p>
   </div>
 </template>
 
